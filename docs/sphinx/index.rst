@@ -45,3 +45,4 @@ Documentation
 
   doc/presence
   doc/client
+  doc/types

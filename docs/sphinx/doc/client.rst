@@ -140,6 +140,7 @@ Client()
    Used to set the activity shown on Discord profiles and status of users. Takes the following as parameters.
 
    :param int pid: the process id of your game
+   :param `~.Types.ActivityType` type: the type of activity
    :param str state: the user's current status
    :param str details: what the player is currently doing
    :param int start: epoch time for game start
@@ -166,6 +167,7 @@ Client()
    Clear the activity.
 
    :param int pid: the process id of your game
+   :param `~.Types.ActivityType` type: the type of activity
    :param str state: the user's current status
    :param str details: what the player is currently doing
    :param int start: epoch time for game start

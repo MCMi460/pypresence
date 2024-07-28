@@ -50,6 +50,7 @@ Presence()
    Sets the user's presence on Discord.
 
    :param int pid: the process id of your game
+   :param `~.Types.ActivityType` type: the type of activity
    :param str state: the user's current status
    :param str details: what the player is currently doing
    :param int start: epoch time for game start
